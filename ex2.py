@@ -1,3 +1,5 @@
+# Code referenced from ChatGPT
+
 import heapq
 import time
 
