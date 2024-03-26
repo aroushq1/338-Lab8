@@ -1,3 +1,13 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.neighbors = set()
+
+    def addNeighbor(self, neighbor):
+        self.neighbors.add(neighbor)
+
+    def getNeighbors(self):
+        return self.neighbors
 class Graph:
     def __init__(self):
         self.vertices = {}  # Dictionary to store nodes

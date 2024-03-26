@@ -1,0 +1,5 @@
+strict graph G {
+node1 -- node2 [weight=5];
+node2 -- node3;
+node4 -- node3 [weight=6];
+}
